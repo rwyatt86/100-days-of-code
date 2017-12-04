@@ -1,0 +1,92 @@
+{
+  "name": "rwyatt86/100-days-of-code",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "compositor",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/rwyatt86/100-days-of-code",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "100-days-of-code",
+      "subhead": "Fork this template for the 100 days journal - to keep yourself accountable",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "100-days-of-code: Fork this template for the 100 days journal - to keep yourself accountable",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "rwyatt86",
+          "repo": "100-days-of-code"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>I&apos;ve joined the #100DaysOfCode Challenge.</h1>\n<h2>Contents</h2>\n<ul>\n<li><a href=\"rules.md\">Rules</a></li>\n<li><a href=\"log.md\">Log - click here to see my progress</a></li>\n<li><a href=\"FAQ.md\">FAQ</a></li>\n<li><a href=\"resources.md\">Resources</a></li>\n</ul>\n<h2>If you&apos;ve decided to join:</h2>\n<ol>\n<li>Read <a href=\"https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4\">Join the #100DaysOfCode</a></li>\n<li>Fork this repo and commit to the <a href=\"log.md\">Log</a> daily. <a href=\"https://github.com/Kallaway/100-days-kallaway-log\">Example</a>.</li>\n<li><strong>Code minimum an hour every day for the next 100 days.</strong></li>\n<li>Change the date in <a href=\"rules.md\">Rules</a> to the day you&apos;ve started the challenge.</li>\n<li>Delete the examples in the log, or comment them out, and start filling it with your own content.</li>\n<li><strong>Tweet your progress every day using the #100DaysOfCode hashtag.</strong></li>\n<li>Follow <a href=\"https://twitter.com/_100DaysOfCode\">100DaysOfCode</a> Twitter Bot that retweets all the tweets that contain the #100DaysOfCode hashtag. It&apos;s a great way to keep yourself motivated and to participate in the community. Thanks <a href=\"https://twitter.com/amanhimself\">@amanhimself</a> for creating it!</li>\n<li>Important: Encourage others who are doing the same challenge on Twitter or elsewhere - by giving them props when they are posting updates on their progress, supporting them when things get difficult. Thus we will grow a community that is helpful and effective, which will lead to a higher success rate for each person involved. It&apos;s also more likely that you will stick to your own commitment, given that you will get acquainted with a couple people (or more) right away.</li>\n<li>If you find a great, helpful resource that others would benefit from, either submit a Pull Request to add it to the repo, or just tweet at me (see info below)</li>\n</ol>\n<h2>Note</h2>\n<ul>\n<li>If you have any questions or ideas about 100DaysOfCode (or other ideas), feel free to reach out to me on Twitter: <a href=\"https://twitter.com/ka11away\">@ka11away</a></li>\n<li>If you like this repo and find it useful, please consider &#x2605; starring it (on top right of the page) :)</li>\n</ul>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/rwyatt86/100-days-of-code",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/rwyatt86",
+          "text": "rwyatt86"
+        }
+      ]
+    }
+  ]
+}
